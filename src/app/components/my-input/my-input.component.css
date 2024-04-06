@@ -1,0 +1,86 @@
+/* .custom-class{
+background-color: #E7F3FF;
+height: 1080px;
+left: 260px;
+gap: 0px;
+opacity: 0px;
+
+} */
+
+/* .custom-class2{
+
+width: Fixed (1,680px)px;
+height: Hug (52px)px;
+top: 149px;
+left: 120px;
+gap: 16px;
+opacity: 0px;
+
+} */
+
+.container-class{
+background-color: #3D779B;
+ width: Fill (1,144px)px;
+height: Hug (553px)px;
+padding: 32px 0px 0px 0px;
+gap: 16px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+.divider {
+
+    display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.custom-btn {
+    width:36px;
+    height:52px;
+    /* border-radius: 12px; */
+}
+
+.lorem-class {
+font-family:  Helvetica;
+font-weight: 700px;
+font-size: 16px;
+line-height: 18.4px;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+}
+
+.delete-class{
+/* 
+width: 52px;
+height:  52px;;
+padding: 13px 24px 13px 24px;
+gap: 8px;
+border-radius: 4px;
+opacity: 0px; */
+
+
+}
+
+.icon-class {
+  color: #FFFFFF;
+  background-color: #BB0A21;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 52px;
+height:  52px;
+top: 4px;
+gap: 0px;
+opacity: 0px;
+border-radius: 4px;
+margin: 5px;
+
+
+}

@@ -2,14 +2,27 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { NavComponentComponent } from './components/nav-component/nav-component.component';
+import { MyInputComponent } from './components/my-input/my-input.component';
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatNativeDateModule } from '@angular/material/core';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet,
     HeaderComponent,
-    NavComponentComponent
-
+    NavComponentComponent,
+    MyInputComponent,
+    
+    MatDatepickerModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatNativeDateModule,
+    
 
   ],
   templateUrl: './app.component.html',
